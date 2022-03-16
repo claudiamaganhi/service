@@ -14,8 +14,6 @@
 		A77F227127E292A70046AA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77F227027E292A70046AA5A /* Assets.xcassets */; };
 		A77F227427E292A70046AA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77F227227E292A70046AA5A /* LaunchScreen.storyboard */; };
 		A77F227F27E292A70046AA5A /* serviceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77F227E27E292A70046AA5A /* serviceTests.swift */; };
-		A77F228927E292A70046AA5A /* serviceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77F228827E292A70046AA5A /* serviceUITests.swift */; };
-		A77F228B27E292A70046AA5A /* serviceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77F228A27E292A70046AA5A /* serviceUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +45,6 @@
 		A77F227A27E292A70046AA5A /* serviceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = serviceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77F227E27E292A70046AA5A /* serviceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serviceTests.swift; sourceTree = "<group>"; };
 		A77F228427E292A70046AA5A /* serviceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = serviceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A77F228827E292A70046AA5A /* serviceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serviceUITests.swift; sourceTree = "<group>"; };
-		A77F228A27E292A70046AA5A /* serviceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serviceUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +77,6 @@
 			children = (
 				A77F226627E292A40046AA5A /* service */,
 				A77F227D27E292A70046AA5A /* serviceTests */,
-				A77F228727E292A70046AA5A /* serviceUITests */,
 				A77F226527E292A40046AA5A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,15 +111,6 @@
 				A77F227E27E292A70046AA5A /* serviceTests.swift */,
 			);
 			path = serviceTests;
-			sourceTree = "<group>";
-		};
-		A77F228727E292A70046AA5A /* serviceUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A77F228827E292A70046AA5A /* serviceUITests.swift */,
-				A77F228A27E292A70046AA5A /* serviceUITestsLaunchTests.swift */,
-			);
-			path = serviceUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,8 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A77F228B27E292A70046AA5A /* serviceUITestsLaunchTests.swift in Sources */,
-				A77F228927E292A70046AA5A /* serviceUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
