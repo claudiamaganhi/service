@@ -1,19 +1,18 @@
-//
-//  ViewController.swift
-//  service
-//
-//  Created by Erick on 16/03/22.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let url = URL(string: "https://api.thecatapi.com/v1/images/search?breed_id=beng")
+        Service().fetchCat(url: url) { result in
+            switch result {
+            case .success(let result):
+                print("FOI SUCESSO: \(result)")
+            case .failure(let error):
+                print("DEU RUIM: \(error)")
+            }
+        }
     }
-
-
 }
 

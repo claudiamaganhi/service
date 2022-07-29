@@ -14,6 +14,8 @@
 		A77F227127E292A70046AA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77F227027E292A70046AA5A /* Assets.xcassets */; };
 		A77F227427E292A70046AA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77F227227E292A70046AA5A /* LaunchScreen.storyboard */; };
 		A77F227F27E292A70046AA5A /* serviceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77F227E27E292A70046AA5A /* serviceTests.swift */; };
+		A77F229927E3A8430046AA5A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77F229827E3A8430046AA5A /* Service.swift */; };
+		A77F229B27E3C58F0046AA5A /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77F229A27E3C58F0046AA5A /* Cat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		A77F227A27E292A70046AA5A /* serviceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = serviceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77F227E27E292A70046AA5A /* serviceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serviceTests.swift; sourceTree = "<group>"; };
 		A77F228427E292A70046AA5A /* serviceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = serviceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77F229827E3A8430046AA5A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		A77F229A27E3C58F0046AA5A /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +98,10 @@
 		A77F226627E292A40046AA5A /* service */ = {
 			isa = PBXGroup;
 			children = (
-				A77F226727E292A40046AA5A /* AppDelegate.swift */,
-				A77F226927E292A40046AA5A /* SceneDelegate.swift */,
+				A77F229727E2991A0046AA5A /* AppDelegate */,
 				A77F226B27E292A40046AA5A /* ViewController.swift */,
+				A77F229827E3A8430046AA5A /* Service.swift */,
+				A77F229A27E3C58F0046AA5A /* Cat.swift */,
 				A77F226D27E292A40046AA5A /* Main.storyboard */,
 				A77F227027E292A70046AA5A /* Assets.xcassets */,
 				A77F227227E292A70046AA5A /* LaunchScreen.storyboard */,
@@ -111,6 +116,15 @@
 				A77F227E27E292A70046AA5A /* serviceTests.swift */,
 			);
 			path = serviceTests;
+			sourceTree = "<group>";
+		};
+		A77F229727E2991A0046AA5A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A77F226727E292A40046AA5A /* AppDelegate.swift */,
+				A77F226927E292A40046AA5A /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +259,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A77F226C27E292A40046AA5A /* ViewController.swift in Sources */,
+				A77F229927E3A8430046AA5A /* Service.swift in Sources */,
+				A77F229B27E3C58F0046AA5A /* Cat.swift in Sources */,
 				A77F226827E292A40046AA5A /* AppDelegate.swift in Sources */,
 				A77F226A27E292A40046AA5A /* SceneDelegate.swift in Sources */,
 			);
